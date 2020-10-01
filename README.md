@@ -1,7 +1,7 @@
-The Public School
+For Public School
 =================
 
-# Pre-installation
+# Get Pre-installation
 
 1. Install MongoDB (instructions for OSX are [http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/](here))
 
@@ -19,7 +19,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-# Before starting the server
+# Get Before starting the server
 
 Before starting the server, you need some data. There are various command line utilities to populate the database with fake data. Run the following commands:
 
@@ -54,7 +54,7 @@ python manage.py event fake_discussions -n 30
 ```
 creates 30 fake discussions
 
-# Starting the server
+# Starting to the server
 
 At this point, you can start the server and play around. That is simply:
 
@@ -65,7 +65,7 @@ python wsgi.py
 Now visit http://localhost:5000/
 
 
-# Configuring things
+# Finall Configuring things
 
 If you need to delete all the users, places, events, or proposals, do the following:
 

@@ -1,4 +1,4 @@
-For Public School
+To Public School
 =================
 
 # Get Pre-installation
